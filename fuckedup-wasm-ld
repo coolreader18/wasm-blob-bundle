@@ -1,0 +1,19 @@
+#!/bin/bash
+
+arg2=("$@")
+exports=()
+outfile=''
+while (($#)); do
+  case $1 in
+    --export) shift; exports+=("$1") ;;
+    --export=*) exports+=("${1#--export=}") ;;
+    -o) shift; outfile=${1%.wasm}.exports ;;
+  esac
+  shift
+done
+
+[[ -z $outfile ]] && { echo "no wasm output!!"; exit 1; }
+
+IFS=$'\n' echo "${exports[*]}" >"$outfile"
+
+exec wasm-ld "${arg2[@]}"

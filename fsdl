@@ -1,0 +1,38 @@
+target/wasm32-unknown-unknown/debug
+|-- build
+|-- deps
+|   |-- libwasm_blob-b05110d2b4b764cd.rlib
+|   |-- libwasm_blob-b05110d2b4b764cd.rmeta
+|   |-- libwasm_blob_example.a
+|   |-- wasm_blob-b05110d2b4b764cd.d
+|   |-- wasm_blob_example.1bu88i7oucqc5kz5.rcgu.o
+|   |-- wasm_blob_example.1rsceo88f4dl2gbr.rcgu.o
+|   |-- wasm_blob_example.2a6ucleegfrgu30m.rcgu.o
+|   |-- wasm_blob_example.2kl8pvzqhacffe8d.rcgu.o
+|   |-- wasm_blob_example.40ciwrrv782nwskk.rcgu.o
+|   |-- wasm_blob_example.4z5sxv4ooyqbb02g.rcgu.o
+|   |-- wasm_blob_example.6pxzvsgwrm9uvea.rcgu.o
+|   `-- wasm_blob_example.d
+|-- examples
+`-- incremental
+    |-- wasm_blob-2mic3k40fjp64
+    |   |-- s-glrcmvdwmr-u9nt9j-36eibbbpv4gg0
+    |   |   |-- 3f7i9gcpfktvccol.o
+    |   |   |-- dep-graph.bin
+    |   |   |-- query-cache.bin
+    |   |   `-- work-products.bin
+    |   `-- s-glrcmvdwmr-u9nt9j.lock
+    `-- wasm_blob_example-2jj499yteikaj
+        |-- s-glrcmvfr6e-13g7p6c-34wnq0vuh8mmy
+        |   |-- 1bu88i7oucqc5kz5.o
+        |   |-- 1rsceo88f4dl2gbr.o
+        |   |-- 2a6ucleegfrgu30m.o
+        |   |-- 2kl8pvzqhacffe8d.o
+        |   |-- 40ciwrrv782nwskk.o
+        |   |-- 6pxzvsgwrm9uvea.o
+        |   |-- dep-graph.bin
+        |   |-- query-cache.bin
+        |   `-- work-products.bin
+        `-- s-glrcmvfr6e-13g7p6c.lock
+
+9 directories, 27 files
